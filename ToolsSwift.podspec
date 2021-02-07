@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+#     s.description      = <<-DESC
+#   TODO: Add long description of the pod here.
+#                          DESC
 
-  s.homepage         = 'https://github.com/jesse881025@163.com/ToolsSwift'
+  s.homepage         = 'https://github.com/jesse881025/ToolsSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jesse881025@163.com' => 'hongwei.zhang@langlive.com' }
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = "ToolsSwift/Classes", "ToolsSwift/Classes/**/*.{swift}"
+  s.source_files = 'ToolsSwift/Classes', 'ToolsSwift/Classes/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'ToolsSwift' => ['ToolsSwift/Assets/*.png']

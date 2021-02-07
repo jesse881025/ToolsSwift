@@ -1,7 +1,13 @@
+//
+//  Extension+CGSize.swift
+//  ToolsSwift
+//
+//  Created by zhanghongwei on 5/2/2021.
+//
 
 import Foundation
 
-extension CGSize {
+public extension CGSize {
     func newSize(newWidth: CGFloat) -> CGSize {
         // 根据宽度等比计算高度 height/width*newWidth
         let newHeigth = self.height/self.width*newWidth

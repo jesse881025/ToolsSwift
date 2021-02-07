@@ -2,8 +2,7 @@
   "name": "ToolsSwift",
   "version": "0.1.0",
   "summary": "A short description of ToolsSwift.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jesse881025@163.com/ToolsSwift",
+  "homepage": "https://github.com/jesse881025/ToolsSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +11,7 @@
     "jesse881025@163.com": "hongwei.zhang@langlive.com"
   },
   "source": {
-    "git": "https://github.com/jesse881025@163.com/ToolsSwift.git",
+    "git": "https://github.com/jesse881025/ToolsSwift.git",
     "tag": "0.1.0"
   },
   "platforms": {
