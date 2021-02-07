@@ -16,7 +16,11 @@ PODS:
     - iOSSnapshotTestCase (~> 6.0)
     - Nimble (~> 8.0)
   - Quick (2.2.1)
-  - ToolsSwift (0.1.0)
+  - ToolsSwift (0.1.1):
+    - ToolsSwift/Foundation (= 0.1.1)
+    - ToolsSwift/UIKit (= 0.1.1)
+  - ToolsSwift/Foundation (0.1.1)
+  - ToolsSwift/UIKit (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -43,7 +47,7 @@ SPEC CHECKSUMS:
   Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
   Nimble-Snapshots: 8ec63f41ce6c7229a17be9a64edbc123b181f75b
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
-  ToolsSwift: c7998b081daa947b3f6f58b7cedc7e5198957719
+  ToolsSwift: dca72a0e68d5639e8ea672fcf3b34c06677e49d2
 
 PODFILE CHECKSUM: af96c83cbdd13860cf4b9121283b6e7dd90f149c
 

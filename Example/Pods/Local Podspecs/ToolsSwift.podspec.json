@@ -1,6 +1,6 @@
 {
   "name": "ToolsSwift",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of ToolsSwift.",
   "homepage": "https://github.com/jesse881025/ToolsSwift",
   "license": {
@@ -12,17 +12,23 @@
   },
   "source": {
     "git": "https://github.com/jesse881025/ToolsSwift.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": [
-    "ToolsSwift/Classes",
-    "ToolsSwift/Classes/**/*.{swift}"
-  ],
   "frameworks": [
     "UIKit",
     "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "Foundation",
+      "source_files": "ToolsSwift/Classes/Foundation/"
+    },
+    {
+      "name": "UIKit",
+      "source_files": "ToolsSwift/Classes/UIKit/"
+    }
   ]
 }

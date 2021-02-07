@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ToolsSwift'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of ToolsSwift.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'ToolsSwift/Classes', 'ToolsSwift/Classes/**/*.{swift}'
+  #s.source_files = 'ToolsSwift/Classes', 'ToolsSwift/Classes/**/*.{swift}'
+  s.subspec "Foundation" do |ss|
+      ss.source_files = "ToolsSwift/Classes/Foundation/"
+  end
+  s.subspec "UIKit" do |ss|
+      ss.source_files = "ToolsSwift/Classes/UIKit/"
+  end
   
   # s.resource_bundles = {
   #   'ToolsSwift' => ['ToolsSwift/Assets/*.png']
