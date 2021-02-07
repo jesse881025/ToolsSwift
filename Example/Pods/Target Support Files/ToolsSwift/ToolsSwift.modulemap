@@ -1,0 +1,6 @@
+framework module ToolsSwift {
+  umbrella header "ToolsSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
